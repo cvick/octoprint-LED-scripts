@@ -6,4 +6,4 @@ I'm using [pigpio](https://github.com/joan2937/pigpio) to control individual pin
 
 ## Sources
 
-The fading.py script is from [popoklopsi](https://github.com/dordnung/raspberrypi-ledstrip). There's a link in the readme to a [tutorial he wrote](https://dordnung.de/raspberrypi-ledstrip/) about how to control an LED strip with a Pi. That's the tutorial I followed. Take note though that the Amazon link to the MOSFETs brings up the wrong MOSFET. It links to IRFZ34N MOSFETs but you need IRLZ34N otherwise the LEDs will not be as bright.
+The fading.py script is from [popoklopsi](https://github.com/dordnung/raspberrypi-ledstrip). There's a link in the readme to a [tutorial he wrote](https://dordnung.de/raspberrypi-ledstrip/) about how to control an LED strip with a Pi. Take note though that the Amazon link to the MOSFETs brings up the wrong MOSFET. It links to IRFZ34N MOSFETs but you need IRLZ34N otherwise the LEDs will not be as bright.
