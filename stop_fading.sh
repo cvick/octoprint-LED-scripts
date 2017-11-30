@@ -14,7 +14,7 @@ sleep 3
 # LED pin to 0 to turn them off
 
 pigs p 17 0
-sleep 0.5
+
 pigs p 22 0
-sleep 0.5
+
 pigs p 24 0
