@@ -6,8 +6,10 @@
 kill $(cat /tmp/fading.pid)
 
 # Give the process time to close
+# Disabled for now because it messes up the timing of gcode
+# commands sent to the printer
 
-sleep 3
+#sleep 3
 
 # When fading.py is stopped, the LEDs stay on whatever color they
 # were on when the process was killed. The section below sets each
