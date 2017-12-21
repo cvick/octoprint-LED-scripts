@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Stops fading.py if it's running
+kill $(cat /tmp/fading.pid)
+
 # Sets red LED pin (17) to 255, turns off blue (24) and green (22) pins
 
 pigs p 17 255
